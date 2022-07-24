@@ -1,0 +1,9 @@
+gts7xl:
+  PrettyName: Samsung Galaxy Tab S7 Plus
+  DeviceType: tablet
+  GridUnit: 15
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
+  PrimaryOrientation: Landscape
