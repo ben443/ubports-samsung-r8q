@@ -1,0 +1,11 @@
+# Android lights HAL is present, but does not work correctly with repowerd
+env REPOWERD_BACKLIGHT_BACKEND=sysfs
+
+start on started dbus and android and started sensorfw
+
+pre-start script
+	# hide fuelgauge and sec-direct-charger
+	mount -o ro -t tmpfs tmpfs /sys/class/power_supply/max77705-fuelgauge
+	mount -o ro -t tmpfs tmpfs /sys/class/power_supply/sec-direct-charger
+end script
+

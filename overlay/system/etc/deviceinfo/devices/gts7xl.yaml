@@ -7,3 +7,4 @@ gts7xl:
     - Landscape
     - InvertedLandscape
   PrimaryOrientation: Landscape
+  BacklightSysfsPath: /sys/class/backlight/panel0-backlight
