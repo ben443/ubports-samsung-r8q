@@ -1,0 +1,11 @@
+r8q:
+  PrettyName: Samsung Galaxy S20 FE
+  DeviceType: phone
+  GridUnit: 18
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedPortrait
+    - InvertedLandscape
+  PrimaryOrientation: Portrait
+  BacklightSysfsPath: /sys/class/backlight/panel0-backlight
